@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    // 📁 Estructura de carpetas
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // ⚙️ Configuración del entorno
+    "module": "CommonJS",
+    "target": "ES2020",
+    "lib": ["ES2020"],
+    
+    "types": ["node", "aws-lambda"],
+
+
+    // 🧾 Generación de archivos adicionales
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // 🔒 Reglas estrictas de tipado
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // 🧼 Limpieza de código (puedes activarlas más adelante si quieres)
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+
+    // ⚠️ Otras configuraciones útiles
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
+
