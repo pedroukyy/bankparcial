@@ -1,0 +1,26 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "Microservicio de usuarios con DynamoDB y SQS",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:user-service": "tsc -p services/user-service/tsconfig.json",
+    "start:user-service": "node services/user-service/dist/index.js"
+  },
+  "keywords": [],
+  "author": "Luis Zabaleta",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.614.0",
+    "@aws-sdk/client-sqs": "^3.614.0",
+    "@aws-sdk/lib-dynamodb": "^3.614.0",
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^17.2.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.9.2"
+  }
+}
