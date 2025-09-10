@@ -10,4 +10,4 @@ Tipos y errores TypeScript	/✅ Corregidos	Validado paso a paso
 Compilación (tsc)	🔄 Por validar	Aún no hemos corrido post-fix
 ZIP para Lambda	🔄 Pendiente	Aún no empaquetado
 IAM Role para Lambda/	definido para acceso a DynamoDB/SQS
-Terraform init/plan/apply	❌ No ejecutado	Último paso
+Terraform init/plan/apply
